@@ -8,7 +8,7 @@ import Footer from './components/Footer/Footer'
 
 function App() {
   return (
-    <div className="App font-poppins">
+    <div className="font-poppins">
       <Hero />
       <Services />
       <Features />
