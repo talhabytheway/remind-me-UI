@@ -1,3 +1,4 @@
+import Nav from './components/Hero/Nav'
 import Hero from './components/Hero/Hero'
 import Services from './components/Services/Services'
 import Features from './components/Features/Feature'
@@ -8,8 +9,10 @@ import Footer from './components/Footer/Footer'
 
 function App() {
   return (
-    <div className="font-poppins">
-      <Hero />
+    <>
+    <Nav className="relative" />
+    <div className="font-poppins flex flex-col gap-10 md:gap-16 lg:gap-20">
+      <Hero className="" />
       <Services />
       <Features />
       <Notifications />
@@ -17,6 +20,7 @@ function App() {
       <Customers />
       <Footer />
     </div>
+    </>
   );
 }
 
