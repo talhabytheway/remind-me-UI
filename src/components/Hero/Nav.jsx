@@ -7,11 +7,11 @@ import { Link } from "react-scroll";
 function Nav() {
   const [open, setopen] = useState(false);
   return (
-    <div className="sticky top-0">
+    <div className={`bg-dark backdrop-blur-[13px] sticky top-0 md:backdrop-blur-sm z-10 ${
+        open ? "bg-opacity-100 lg:bg-opacity-40 bg-white" : "bg-opacity-40"
+      }`}>
       <header
-        className={`bg-dark backdrop-blur-[13px]  md:backdrop-blur-sm z-10 ${
-          open ? "bg-opacity-100 lg:bg-opacity-40 bg-white" : "bg-opacity-40"
-        }`}
+        
       >
         <div
           className={`xl:mx-auto xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] flex py-5 justify-between text-[18px] font-semibold select-none transition-all ease-linear duration-650`}
