@@ -7,8 +7,8 @@ import { Link } from "react-scroll";
 function Nav() {
   const [open, setopen] = useState(false);
   return (
-    <div className={`bg-dark backdrop-blur-[13px] sticky top-0 md:backdrop-blur-sm z-10 ${
-        open ? "bg-opacity-100 lg:bg-opacity-40 bg-white" : "bg-opacity-40"
+    <div className={`bg-dark backdrop-blur-[13px] bg-white lg:bg-opacity-40 sticky top-0 md:backdrop-blur-sm z-10 ${
+        open ? "bg-opacity-100 backdrop-blur-none lg:bg-opacity-40" : "bg-opacity-40"
       }`}>
       <header
         
