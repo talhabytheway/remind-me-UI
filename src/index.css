@@ -4,6 +4,9 @@
 .rec-arrow, .rec-pagination {
   display: none !important
 }
+.active {
+  color: #2D76F9
+}
 body {
   margin: 0;
   padding: 0;

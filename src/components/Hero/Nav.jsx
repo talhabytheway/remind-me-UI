@@ -57,10 +57,10 @@ function Nav() {
               <Link
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={500}
                 activeClass="active"
-                to="services"
+                to="features"
               >
                 Features
               </Link>
@@ -72,7 +72,7 @@ function Nav() {
                 offset={-70}
                 duration={500}
                 activeClass="active"
-                to="projects"
+                to="about-us"
               >
                 About Us
               </Link>

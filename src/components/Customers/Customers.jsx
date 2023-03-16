@@ -10,7 +10,7 @@ import Item from "./Item";
 const Customers = () => {
   const carouselRef = useRef(null);
   return (
-    <div className="xl:mx-auto xl:min-w-[1440px] lg:flex lg:items-center justify-between">
+    <div className="xl:mx-auto xl:max-w-[1440px] lg:flex lg:items-center justify-between">
       <img
         src={reviews}
         alt=""
@@ -71,7 +71,7 @@ const Customers = () => {
               </div>
             </Item>
           </Carousel>
-          <div className="w-full flex flex-row justify-center lg:justify-start gap-6 flex-wrap pt-4 ">
+          <div className="w-full flex flex-row justify-center lg:justify-start gap-6 flex-wrap pt-4 [&>img]:cursor-pointer">
           <img src={left} onClick={() => carouselRef.current.slidePrev()} alt='' className="inline-block"/>
           <img src={right} onClick={() => carouselRef.current.slideNext()} alt=''className="inline-block" />
           </div>

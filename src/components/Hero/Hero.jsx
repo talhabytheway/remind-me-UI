@@ -2,7 +2,7 @@ import heroImg from "../../assets/heroImage.png";
 
 function Header() {
   return (
-    <div className="">
+    <div id="home" className="">
       <div className="w-full xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto">
         <div className="lg:w-[50%] flex flex-col gap-6 xl:py-8">
           <h1 className="text-[48px] md:text-[56px] lg:text-[64px] font-semibold">
