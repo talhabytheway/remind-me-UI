@@ -15,7 +15,7 @@ function Header() {
           </p>
           <div className="">
             <button
-              className={`transition-all ease-in duration-500 px-10 py-3 border-2 text-[16px] rounded-full cursor-pointer hover:duration-500 text-white bg-blue inline-block`}
+              className={`transition-all ease-in duration-500 px-[58px] py-6 border-2 text-[16px] rounded-full cursor-pointer hover:duration-500 text-white bg-blue inline-block`}
             >
               Download App
             </button>

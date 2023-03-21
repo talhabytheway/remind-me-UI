@@ -5,7 +5,7 @@ import notification from "../../assets/notification.svg";
 
 const Services = () => {
   return (
-    <div className='xl:mx-auto xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem]'>
+    <div className='xl:mx-auto xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] lg:mt-4 xl:mt-16'>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 [&>div]:w-[80%] [&>div]:lg:w-full [&>div]:lg:px-2 [&>div]:mx-auto [&>div>img]:mx-auto [&>div>img]:lg:mx-0 [&>div>img]:p-4 [&>div>img]:rounded-full [&>div>img]:bg-lblue [&>div>h3]:font-bold [&>div>p]:text-grey [&>div]:flex [&>div]:flex-col [&>div]:gap-3 [&>div>img]:!h-20 [&>div>img]:!w-20 [&>div]:text-center [&>div]:lg:text-left">
       <div>
         <img src={schedule} alt="schedule" />
