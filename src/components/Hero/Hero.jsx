@@ -4,11 +4,11 @@ function Header() {
   return (
     <div id="home" className="">
       <div className="w-full xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto">
-        <div className="lg:w-[50%] flex flex-col gap-6 xl:py-8">
+        <div className="lg:w-[50%] flex flex-col gap-[30px] xl:py-8 pt-12 xl:pt-[6rem]">
           <h1 className="text-[48px] md:text-[56px] lg:text-[64px] font-semibold">
             Manage Schedule and Task Easy
           </h1>
-          <p className="text-[16px] md:text-[18px] ">
+          <p className="text-[16px] md:text-[18px]">
             Create and organize schedule and task deadline become better, easy
             manage and certainly no longer lagging behind schedule of activities
             and task

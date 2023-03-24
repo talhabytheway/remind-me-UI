@@ -10,11 +10,12 @@ import Item from "./Item";
 const Customers = () => {
   const carouselRef = useRef(null);
   return (
-    <div className="xl:mx-auto xl:max-w-[1440px] lg:flex lg:items-center justify-between">
+    <div className="2xl:mx-auto">
+      <div className="max-w-[1440px] 2xl:w-[1440px] lg:flex lg:items-center justify-between">
       <img
         src={reviews}
         alt=""
-        className="lg:rounded-r-[100px] lg:w-[43%] mx-auto md:w-auto xl:ml-0 w-full pb-10 lg:pb-0 hidden lg:inline"
+        className="lg:rounded-r-[100px] lg:w-[43%] mx-auto md:w-auto lg:ml-0 w-full pb-10 lg:pb-0 hidden lg:inline"
       />
       <div className="px-[1.5rem] md:px-[3rem] lg:p-0 md:w-[700px] lg:w-[500px] mx-auto lg:ml-auto leading-relaxed">
         <div>
@@ -77,6 +78,7 @@ const Customers = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

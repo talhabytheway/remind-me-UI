@@ -14,7 +14,7 @@ function Nav() {
         
       >
         <div
-          className={`xl:mx-auto xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] flex py-5 justify-between text-[18px] font-semibold select-none transition-all ease-linear duration-650`}
+          className={`xl:mx-auto xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] flex py-6 justify-between text-[18px] font-semibold select-none transition-all ease-linear duration-650`}
         >
           <img
             src={logo}

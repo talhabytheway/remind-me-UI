@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <Nav className="relative" />
-    <div className="font-poppins flex flex-col gap-10 md:gap-16 lg:gap-20">
+    <div className="font-poppins flex flex-col gap-12 md:gap-16 lg:gap-36">
       <Hero className="" />
       <Services />
       <Features />

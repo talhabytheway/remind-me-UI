@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="xl:mx-auto xl:min-w-[1280px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] gap-6 lg:gap-0 flex flex-col lg:flex-row lg:justify-between pb-10">
+    <div className="xl:mx-auto xl:min-w-[1280px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] gap-6 lg:gap-0 flex flex-col lg:flex-row lg:justify-between pb-12">
       <div className="lg:w-[35%] md:flex mx-auto lg:mx-0 md:gap-10 lg:gap-5 items-center flex-wrap">
         <img src={logo} alt="" className="h-[65px] md:h-16 lg:h-[80px] w-auto mx-auto mb-[22px] lg:m-0"/>
         <p className="max-w-[400px] md:max-w-[300px] lg:max-w-[400px] text-center text-[18px] md:text-left text-grey">
@@ -15,10 +15,10 @@ const Footer = () => {
           advantages
         </p>
       </div>
-      <div className="flex mx-auto lg:mx-0 gap-16 lg:gap-20 flex-wrap">
+      <div className="flex mx-auto lg:mx-0 gap-16 lg:gap-20 2xl:gap-32 flex-wrap">
       <div className="">
         <h4 className="text-[24px] font-semibold pb-3 lg:pb-10 lg:pt-6">Sitemaps</h4>
-        <ul className="text-blue text-[18px] list-disc list-inside">
+        <ul className="text-blue text-[18px] list-disc list-inside [&>li]:pb-2">
           <li><Link
               spy={true}
               smooth={true}
@@ -47,7 +47,7 @@ const Footer = () => {
       </div>
       <div className="">
         <h4 className="text-[24px] font-semibold pb-3 lg:pb-10 lg:pt-6">Advantages</h4>
-        <ul className="text-blue text-[18px] [&>li>span]:text-grey list-disc list-inside">
+        <ul className="text-blue text-[18px] [&>li>span]:text-grey list-disc list-inside [&>li]:pb-2">
           <li><span>Set Task Better</span></li>
           <li><span>Easy Manage</span></li>
           <li><span>Get Notification</span></li>
