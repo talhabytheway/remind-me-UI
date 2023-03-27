@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="xl:mx-auto xl:min-w-[1280px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] gap-6 lg:gap-0 flex flex-col lg:flex-row lg:justify-between pb-12">
+    <div className="xl:mx-auto xl:min-w-[1280px] px-[2rem] md:px-[3rem] lg:px-[6rem] gap-6 lg:gap-0 flex flex-col lg:flex-row lg:justify-between pt-[3rem] pb-[56px] lg:pb-12">
       <div className="lg:w-[35%] md:flex mx-auto lg:mx-0 md:gap-10 lg:gap-5 items-center flex-wrap">
         <img src={logo} alt="" className="h-[65px] md:h-16 lg:h-[80px] w-auto mx-auto mb-[22px] lg:m-0"/>
         <p className="max-w-[400px] md:max-w-[300px] lg:max-w-[400px] text-center text-[18px] md:text-left text-grey">
