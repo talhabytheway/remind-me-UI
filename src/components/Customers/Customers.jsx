@@ -1,6 +1,6 @@
 import React, {  useRef } from "react";
 import reviews from "../../assets/reviews.png";
-import profile from "../../assets/profile.png";
+import profile from "../../assets/Profile.png";
 import profile1 from "../../assets/profile1.jpg";
 import left from "../../assets/arrow-left.svg";
 import right from "../../assets/arrow-right.svg";
